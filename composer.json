@@ -1,0 +1,25 @@
+{
+    "name": "flaviovs/yii2-data-transformation",
+    "description": "Data transformation behavior for Yii2 models",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Flávio Veloso",
+            "email": "flaviovs@magnux.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "fv\\yii\\behaviors\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2": "~2.0.0",
+        "codeception/codeception": "^2.4"
+    }
+}
